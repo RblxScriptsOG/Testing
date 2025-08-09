@@ -91,12 +91,6 @@ getgenv().Username = "DefaultUser"
             error("Script stopped - VIP Server detected")        
         end
 
-        if getgenv().EclipseHubRunning then
-            warn("Script is already running or has been executed! Cannot run again.")
-            return
-        end
-        getgenv().EclipseHubRunning = true
-
         -- Updated PetPriorityData with isMutation field and additional pets
         local PetPriorityData = {
                 -- Regular pets
